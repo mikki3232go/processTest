@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body, * {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+header, footer {
+	text-align: center;
+	background-color: blue;
+	color: white;
+}
+
+nav {
+	background-color: skyblue;
+	padding: 4px 10px;
+	display: flex;
+	gap: 20px;
+	text-align: left;
+}
+
+section {
+	background-color: lightgray;
+	flex: 1;
+	padding: 20px 15px;
+}
+
+.title {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+table {
+	margin: 0 auto;
+}
+p {
+	text-align: left;
+}
+
+.insert {
+	width: 600px;
+}
+
+.insert td input[type="text"], .insert td select {
+	width: 100%;
+}
